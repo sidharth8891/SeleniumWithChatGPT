@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" thread-count="2">
+    <test name="Test 1">
+        <classes>
+            <class name="tests.UrlOpenTest"/>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="tests.JsonDataTest"/>
+        </classes>
+    </test>
+</suite>
